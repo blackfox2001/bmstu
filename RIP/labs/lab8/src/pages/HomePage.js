@@ -6,7 +6,7 @@ function HomePage() {
         <div>
             <HeaderComp></HeaderComp>
             <h2>Фильмы</h2>
-            <Link to="/GameTypes"><button>К списку фильмов</button></Link>
+            <Link to="/Films"><button>К списку фильмов</button></Link>
         </div>
     );
 }
