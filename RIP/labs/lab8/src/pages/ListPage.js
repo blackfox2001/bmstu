@@ -35,7 +35,7 @@ import { useState, useEffect } from "react";
 	                {FilmName.map((NameFilm)=>{
 	                    return (
 	                        <li key={NameFilm}>
-	                            <Link to={{pathname: "/Films/object", data: FilmsList.find(obj => obj.NameFilm == NameFilm)}}>{NameFilm}</Link>
+	                            <Link to={{pathname: "/Films/1", data: FilmsList.find(obj => obj.NameFilm == NameFilm)}}>{NameFilm}</Link>
 	                        </li>
 	                    )
 	                })}
